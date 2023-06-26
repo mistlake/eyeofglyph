@@ -8,3 +8,44 @@ html, body {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.pupil
+{
+    z-index: 5;
+    background-color: #F8FAFB; /*white*/
+    height: 8px;
+    width: 8px;
+    border-radius: 100%;
+    position: absolute;
+    top: 48%;
+    left: 49.6%;
+    border: 1px solid #F8FAFB; /*whitesmoke*?
+    
+    /* These are the initial coordinates: top is 48%, left is 49.6%*/
+}
+
+.sclera
+{
+    z-index: 0;
+    background: linear-gradient(#162A53,#0F6495);
+    height: 58px;
+    width: 60px;
+    border-radius: 100%;
+    position: absolute;
+    top: 44%;
+    left: 45%;
+    border: 1px solid #162A53;
+}
+
+.iris
+{
+    z-index:1;
+    background-color: lime;
+    height: 26px;
+    width: 28px;
+    border-radius: 100%;
+    position: fixed;
+    top: 47.2%;
+    left: 47.81%;
+    border: 1px solid lime;
+}
